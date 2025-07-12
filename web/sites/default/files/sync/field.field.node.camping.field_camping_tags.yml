@@ -1,0 +1,29 @@
+uuid: 5d3f0f0a-bfa1-4bff-884e-de7bca38d595
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_camping_tags
+    - node.type.camping
+    - taxonomy.vocabulary.categories_camping
+id: node.camping.field_camping_tags
+field_name: field_camping_tags
+entity_type: node
+bundle: camping
+label: camping_tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories_camping: categories_camping
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

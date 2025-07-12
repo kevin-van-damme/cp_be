@@ -1,0 +1,9 @@
+uuid: 54c9852f-3651-4bf4-81e8-2b5fcde63e7c
+langcode: en
+status: true
+dependencies: {  }
+name: categories_camping
+vid: categories_camping
+description: 'a list of all the categories that can be linked to a camping'
+weight: 0
+new_revision: false

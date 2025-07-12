@@ -1,0 +1,29 @@
+uuid: db593488-fcae-46a5-b8e8-e7c32fd5421e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_camping_country
+    - node.type.camping
+    - taxonomy.vocabulary.countries
+id: node.camping.field_camping_country
+field_name: field_camping_country
+entity_type: node
+bundle: camping
+label: camping_country
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      countries: countries
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

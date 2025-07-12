@@ -1,0 +1,9 @@
+uuid: 6077e790-9d6a-4b90-b8a2-77616274a355
+langcode: en
+status: true
+dependencies: {  }
+name: cities_belgium
+vid: cities_belgium
+description: 'a list of all the cities in belgium'
+weight: 0
+new_revision: false

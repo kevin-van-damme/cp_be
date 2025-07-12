@@ -1,0 +1,29 @@
+uuid: ad9014b0-ae9e-453b-b830-a4dc21b6a730
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_camping_owner
+    - node.type.camping
+    - node.type.owner
+id: node.camping.field_camping_owner
+field_name: field_camping_owner
+entity_type: node
+bundle: camping
+label: camping_owner
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      owner: owner
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -21,6 +21,8 @@
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
         "drupal/gin": "^5.0",
+        "drupal/next": "^2.0",
+        "drupal/pathauto": "^1.13",
         "drush/drush": "^13.6"
     },
     "conflict": {

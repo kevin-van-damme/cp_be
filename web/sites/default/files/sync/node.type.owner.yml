@@ -1,0 +1,18 @@
+uuid: 39510995-dcd0-4274-a296-17175a95fe72
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: owner
+type: owner
+description: 'use this ct to add owners to campings'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

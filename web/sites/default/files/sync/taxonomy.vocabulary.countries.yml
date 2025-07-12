@@ -1,0 +1,9 @@
+uuid: d280fb71-1eba-4ff5-b4c7-90b165abf88b
+langcode: en
+status: true
+dependencies: {  }
+name: countries
+vid: countries
+description: 'a list of all available countries'
+weight: 0
+new_revision: false

@@ -1,0 +1,19 @@
+uuid: bdd2f75b-eb5d-4020-8545-9d258206706a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_owner_phone
+    - node.type.owner
+id: node.owner.field_owner_phone
+field_name: field_owner_phone
+entity_type: node
+bundle: owner
+label: owner_phone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

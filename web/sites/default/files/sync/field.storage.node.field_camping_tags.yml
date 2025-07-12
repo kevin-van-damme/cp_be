@@ -1,0 +1,20 @@
+uuid: baf62d5f-2eae-4b6e-b90a-3f8d1b0a5536
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_camping_tags
+field_name: field_camping_tags
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

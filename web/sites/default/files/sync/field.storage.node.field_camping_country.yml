@@ -1,0 +1,20 @@
+uuid: abe42d92-004c-4ef2-9f5f-b9fd5bab413b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_camping_country
+field_name: field_camping_country
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

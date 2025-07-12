@@ -1,0 +1,19 @@
+uuid: 8810ec76-6c1f-4abf-8167-e3061a465fe9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_owner_email
+    - node.type.owner
+id: node.owner.field_owner_email
+field_name: field_owner_email
+entity_type: node
+bundle: owner
+label: owner_email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
