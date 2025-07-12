@@ -1,0 +1,42 @@
+# Ignore Composer dependencies
+/vendor/
+composer.lock
+
+# Ignore Drupal core and contrib (in web/)
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+
+# Ignore configuration files
+# /web/sites/*/settings*.php
+# /web/sites/*/services*.yml
+# /web/sites/default/settings.php
+# /web/sites/default/services.yml
+
+# Ignore user-generated content
+# /web/sites/*/files/
+# /web/sites/*/private/
+# /web/sites/default/files/
+
+# Ignore caches and temporary files
+/web/sites/*/cache/
+/web/cache/
+/web/sites/default/cache/
+/web/sites/*/tmp/
+/tmp/
+
+# Ignore Next.js files (if in this repo)
+# /node_modules/
+# /.next/
+# /out/
+
+# Ignore logs and Drush files
+*.log
+/drush.yml
+/drush/cache/
+
+# Ignore IDE and OS files
+/.idea/
+/.vscode/
+.DS_Store
+.env*
