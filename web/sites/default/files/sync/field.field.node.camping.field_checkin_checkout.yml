@@ -1,0 +1,19 @@
+uuid: 2d272069-fc79-41cf-892a-e703d8e9c21c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_checkin_checkout
+    - node.type.camping
+id: node.camping.field_checkin_checkout
+field_name: field_checkin_checkout
+entity_type: node
+bundle: camping
+label: checkin_checkout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

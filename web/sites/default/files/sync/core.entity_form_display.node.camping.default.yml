@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.camping.field_camping_owner
     - field.field.node.camping.field_camping_price
     - field.field.node.camping.field_camping_tags
+    - field.field.node.camping.field_checkin_checkout
     - image.style.large
     - node.type.camping
   module:
@@ -76,6 +77,14 @@ content:
     weight: 122
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_checkin_checkout:
+    type: string_textfield
+    weight: 128
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path
